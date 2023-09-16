@@ -55,6 +55,7 @@
   font-size: 6rem;
   letter-spacing: 2px;
   font-weight: 400;
+  text-transform: uppercase;
 }
 .home_content > p {
   font-size: 1.6rem;
@@ -78,8 +79,7 @@
 .hours p,
 .minutes p,
 .seconds p {
-  font-size: 7rem;
-  /* line-height: 1; */
+  font-size: 6rem;
 }
 .days span,
 .hours span,

@@ -5,7 +5,7 @@ import {
   FaLinkedinIn,
   FaTwitter,
 } from "react-icons/fa";
-// import CountDownTimer from "../components/CountDownTimer";
+import CountDownTimer from "../components/CountDownTimer";
 
 const Home = () => {
   return (
@@ -31,7 +31,7 @@ const Home = () => {
           Our website is currently under construction. We are working on and
           will get back in
         </p>
-        {/* <CountDownTimer duration={5 * 24 * 60 * 60 * 1000} /> */}
+        <CountDownTimer duration={5 * 24 * 60 * 60 * 1000} />
         <div className={style.subscription_wrapper}>
           <p>Subscribe to get notified when we are back . . !</p>
           <div className={style.subscription}>
