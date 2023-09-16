@@ -1,0 +1,13 @@
+.about_container {
+  width: 500px;
+  margin: 3rem auto;
+  text-align: center;
+}
+.about_container h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+.about_container p {
+  font-size: 1.3rem;
+}
