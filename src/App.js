@@ -1,6 +1,6 @@
 // app
 
-// import Footer from "./components/shared/Footer";
+import Footer from "./components/shared/Footer";
 import Header from "./components/shared/Header";
 // import Home from "./pages/Home";
 
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Header />
       {/* <Home /> */}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
