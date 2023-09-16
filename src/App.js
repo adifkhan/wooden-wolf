@@ -2,13 +2,13 @@
 
 import Footer from "./components/shared/Footer";
 import Header from "./components/shared/Header";
-// import Home from "./pages/Home";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      {/* <Home /> */}
+      <Home />
       <Footer />
     </div>
   );

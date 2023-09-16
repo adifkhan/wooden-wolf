@@ -1,0 +1,114 @@
+.home_container {
+  min-height: calc(100vh - 80px);
+  color: var(--text-color);
+}
+.bg_image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  min-height: 100%;
+  background-image: url("../assets/bg-1.jpg");
+  background-size: cover;
+  background-position: center top;
+}
+.bg_image::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 5, 5, 0.85);
+}
+.social_icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 250px;
+  width: 35px;
+  background-color: var(--primary-color);
+  border-radius: 30px;
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+}
+.social_icons a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--text-color);
+  transition: all 0.5s ease;
+}
+.social_icons a:hover {
+  color: var(--secondary-color);
+}
+.home_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
+}
+.home_content h1 {
+  font-size: 6rem;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+.home_content > p {
+  font-size: 1.6rem;
+  width: 450px;
+  text-align: center;
+}
+.timer {
+  display: flex;
+  padding: 2rem 0;
+}
+.days,
+.hours,
+.minutes,
+.seconds {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+}
+.days p,
+.hours p,
+.minutes p,
+.seconds p {
+  font-size: 7rem;
+  /* line-height: 1; */
+}
+.days span,
+.hours span,
+.minutes span,
+.seconds span {
+  font-size: 1.5rem;
+  margin-top: -15px;
+  color: var(--secondary-color);
+}
+.subscription_wrapper p {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin: 1rem 0 0.5rem;
+}
+.subscription {
+  padding: 1rem;
+}
+.subscription input {
+  width: 250px;
+  font-size: 1.5rem;
+  padding: 10px;
+  outline: none;
+  border: 1px solid var(--text-color);
+  border-radius: 5px;
+  margin-right: 2rem;
+  color: var(--text-light);
+  background: rgb(255, 255, 255, 0.15);
+}
+.subscription input::placeholder {
+  color: var(--text-color);
+}
