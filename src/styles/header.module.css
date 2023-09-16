@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 9rem 1rem;
+  background: transparent;
+  color: silver;
+  height: 80px;
+}
+.navbar a {
+  text-decoration: none;
+  margin-left: 2rem;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: var(--text-color);
+  transition: 0.5s all;
+}
+.navbar a:hover {
+  color: var(--secondary-color);
+  border-bottom: 2px solid var(--secondary-color);
+}
