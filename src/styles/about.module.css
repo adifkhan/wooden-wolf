@@ -1,6 +1,7 @@
 .about_container {
-  width: 500px;
-  margin: 3rem auto;
+  width: 400px;
+  margin: 0 auto;
+  padding: 8rem 0;
   text-align: center;
 }
 .about_container h1 {
